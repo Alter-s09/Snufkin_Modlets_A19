@@ -1,0 +1,324 @@
+<configs>
+	<append xpath="/buffs">
+		<buff name="emote01a" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote01a.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote01a"/>
+			</effect_group>
+		</buff>
+		<buff name="emote01b" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote01b.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote01b"/>
+			</effect_group>
+		</buff>
+		<buff name="emote02a" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote02a.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote02a"/>
+			</effect_group>
+		</buff>
+		<buff name="emote02b" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote02b.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote02b"/>
+			</effect_group>
+		</buff>
+		<buff name="emote03a" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote03a.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote03a"/>
+			</effect_group>
+		</buff>
+		<buff name="emote03b" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote03b.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote03b"/>
+			</effect_group>
+		</buff>
+		<buff name="emote04a" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote04a.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote04a"/>
+			</effect_group>
+		</buff>
+		<buff name="emote04b" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote04b.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote04b"/>
+			</effect_group>
+		</buff>
+		<buff name="emote05a" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote05a.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote05a"/>
+			</effect_group>
+		</buff>
+		<buff name="emote05b" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote05b.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote05b"/>
+			</effect_group>
+		</buff>
+		<buff name="emote06a" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote06a.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote06a"/>
+			</effect_group>
+		</buff>
+		<buff name="emote06b" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote06b.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote06b"/>
+			</effect_group>
+		</buff>
+		<buff name="emote07a" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote07a.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote07a"/>
+			</effect_group>
+		</buff>
+		<buff name="emote07b" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote07b.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote07b"/>
+			</effect_group>
+		</buff>
+		<buff name="emote08a" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote08a.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote08a"/>
+			</effect_group>
+		</buff>
+		<buff name="emote08b" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote08b.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote08b"/>
+			</effect_group>
+		</buff>
+		<buff name="emote09a" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote09a.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote09a"/>
+			</effect_group>
+		</buff>
+		<buff name="emote09b" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote09b.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote09b"/>
+			</effect_group>
+		</buff>
+		<buff name="emote10a" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote10a.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote10a"/>
+			</effect_group>
+		</buff>
+		<buff name="emote10b" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote10b.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote10b"/>
+			</effect_group>
+		</buff>
+		<buff name="emote11a" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote11a.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote11a"/>
+			</effect_group>
+		</buff>
+		<buff name="emote11b" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote11b.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote11b"/>
+			</effect_group>
+		</buff>
+		<buff name="emote12a" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote12a.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote12a"/>
+			</effect_group>
+		</buff>
+		<buff name="emote12b" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote12b.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote12b"/>
+			</effect_group>
+		</buff>
+		<buff name="emote13a" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote13a.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote13a"/>
+			</effect_group>
+		</buff>
+		<buff name="emote13b" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote13b.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote13b"/>
+			</effect_group>
+		</buff>
+		<buff name="emote14a" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote14a.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote14a"/>
+			</effect_group>
+		</buff>
+		<buff name="emote14b" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote14b.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote14b"/>
+			</effect_group>
+		</buff>
+		<buff name="emote15a" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote15a.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote15a"/>
+			</effect_group>
+		</buff>
+		<buff name="emote15b" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote15b.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote15b"/>
+			</effect_group>
+		</buff>
+		<buff name="emote16a" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote16a.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote16a"/>
+			</effect_group>
+		</buff>
+		<buff name="emote16b" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote16b.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote16b"/>
+			</effect_group>
+		</buff>
+		<buff name="emote17a" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote17a.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote17a"/>
+			</effect_group>
+		</buff>
+		<buff name="emote17b" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote17b.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote17b"/>
+			</effect_group>
+		</buff>
+		<buff name="emote18a" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote18a.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote18a"/>
+			</effect_group>
+		</buff>
+		<buff name="emote18b" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote18b.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote18b"/>
+			</effect_group>
+		</buff>
+		<buff name="emote19a" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote19a.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote19a"/>
+			</effect_group>
+		</buff>
+		<buff name="emote19b" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote19b.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote19b"/>
+			</effect_group>
+		</buff>
+		<buff name="emote20a" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote20a.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote20a"/>
+			</effect_group>
+		</buff>
+		<buff name="emote20b" hidden="true">
+			<stack_type value="ignore"/>
+			<duration value="3"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/assets.unity3d?emote20b.prefab" local_offset="0,1.5,0.5" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="emote20b"/>
+			</effect_group>
+		</buff>
+	</append>
+</configs>

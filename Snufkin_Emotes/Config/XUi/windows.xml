@@ -1,0 +1,48 @@
+<config>
+	<remove xpath="/windows/window[@name='windowRadial']" />
+	<append xpath="/windows">
+		<window name="windowRadial" anchor="CenterCenter">
+			<rect name="radialPanel" repeat_content="true" count="20" pivot="center">
+				<radial_entry />
+				<radial_entry />
+				<radial_entry />
+				<radial_entry />
+				<radial_entry />
+				<radial_entry />
+				<radial_entry />
+				<radial_entry />
+				<radial_entry />
+				<radial_entry />
+				<radial_entry />
+				<radial_entry />
+				<radial_entry />
+				<radial_entry />
+				<radial_entry />
+				<radial_entry />
+				<radial_entry />
+				<radial_entry />
+				<radial_entry />
+				<radial_entry />
+				<radial_entry />
+				<radial_entry />
+				<radial_entry />
+				<radial_entry />
+				<radial_entry />
+				<radial_entry />
+				<radial_entry />
+				<radial_entry />
+				<radial_entry />
+				<radial_entry />
+				<radial_entry />
+				<radial_entry />
+				<radial_entry />
+				<radial_entry />
+				<radial_entry />
+				<radial_entry />
+				<radial_entry />
+				<radial_entry />
+				<label depth="10" name="selection" width="150" height="50" pivot="center" justify="center" text=" " font_size="26"/>
+			</rect>
+		</window>
+	</append>
+</config>

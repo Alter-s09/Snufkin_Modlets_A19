@@ -1,0 +1,281 @@
+
+<config>
+<append xpath="/items">
+
+<item name="EmotePhone">
+	<property name="CustomIcon" value="EmotePhone"/>
+	<property name="Tags" value="weapon,ranged,gun,magazine,admin"/>
+	<property name="Material" value="MelectricParts"/>
+	<property name="HoldType" value="31"/>
+	<property name="Meshfile" value="#@modfolder:Resources/assets.unity3d?emotehand.prefab"/>
+	<property name="Weight" value="0"/>
+	<property name="DegradationBreaksAfter" value="true"/>
+	<property name="CrosshairUpAfterShot" value="false"/>
+	<property name="CrosshairOnAim" value="true"/>
+	<property name="ShowQuality" value="false"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="SellableToTrader" value="false"/>
+	<property class="Action0">
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+		<property name="Class" value="Ranged"/>
+		<property name="Hitmask_override" value="Melee"/>
+		<property name="Delay" value=".150"/>
+		<property name="Range" value="1"/>
+		<property name="Single_magazine_usage" value="true"/>
+		<property name="Magazine_items" value="emote01,emote02,emote03,emote04,emote05,emote06,emote07,emote08,emote09,emote10,emote11,emote12,emote13,emote14,emote15,emote16,emote17,emote18,emote19,emote20"/>
+		<property name="Infinite_ammo" value="true"/>
+		<property name="Reload_time" value="3.0"/>
+		<property name="Sound_start" value="buttonclick"/>
+		<property name="Sound_repeat" value="buttonclick"/>
+		<property name="Sound_end" value=""/>
+		<property name="Sound_empty" value=""/>
+		<property name="Sound_reload" value=""/>
+	</property>
+	<property class="Action1">
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+		<property name="Class" value="Ranged"/>
+		<property name="Hitmask_override" value="Melee"/>
+		<property name="Delay" value=".150"/>
+		<property name="Range" value="1"/>
+		<property name="Single_magazine_usage" value="true"/>
+		<property name="Magazine_items" value="emote01,emote02,emote03,emote04,emote05,emote06,emote07,emote08,emote09,emote10,emote11,emote12,emote13,emote14,emote15,emote16,emote17,emote18,emote19,emote20"/>
+		<property name="Infinite_ammo" value="true"/>
+		<property name="Reload_time" value="3.0"/>
+		<property name="Sound_start" value="buttonclick"/>
+		<property name="Sound_repeat" value="buttonclick"/>
+		<property name="Sound_end" value=""/>
+		<property name="Sound_empty" value=""/>
+		<property name="Sound_reload" value=""/>
+	</property>
+	<effect_group tiered="false">
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="20"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="0"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="0"/>
+		<passive_effect name="MaxRange" operation="base_set" value="0"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="0"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="0"/>
+		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value="0"/>
+		<passive_effect name="SpreadMultiplierHip" operation="base_set" value="0"/>
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="0"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="0"/>
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="0"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="0"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="9999" tags="admin"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="0" tags="admin"/>
+		<passive_effect name="ModSlots" operation="base_set" value="0"/>
+	</effect_group>
+</item>
+
+<item name="emote01">
+	<property name="CustomIcon" value="emote01"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="SellableToTrader" value="false"/>
+	<effect_group tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="0"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="0"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="emote01a"/>
+		<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" target="self" buff="emote01b"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformChildrenActive" active="false" transform_path="Screen"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="true" transform_path="emote01"/>
+	</effect_group>
+</item>
+<item name="emote02">
+	<property name="Extends" value="emote01"/>
+	<property name="CustomIcon" value="emote02"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="emote02a"/>
+		<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" target="self" buff="emote02b"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformChildrenActive" active="false" transform_path="Screen"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="true" transform_path="emote02"/>
+	</effect_group>
+</item>
+<item name="emote03">
+	<property name="Extends" value="emote01"/>
+	<property name="CustomIcon" value="emote03"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="emote03a"/>
+		<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" target="self" buff="emote03b"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformChildrenActive" active="false" transform_path="Screen"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="true" transform_path="emote03"/>
+	</effect_group>
+</item>
+<item name="emote04">
+	<property name="Extends" value="emote01"/>
+	<property name="CustomIcon" value="emote04"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="emote04a"/>
+		<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" target="self" buff="emote04b"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformChildrenActive" active="false" transform_path="Screen"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="true" transform_path="emote04"/>
+	</effect_group>
+</item>
+<item name="emote05">
+	<property name="Extends" value="emote01"/>
+	<property name="CustomIcon" value="emote05"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="emote05a"/>
+		<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" target="self" buff="emote05b"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformChildrenActive" active="false" transform_path="Screen"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="true" transform_path="emote05"/>
+	</effect_group>
+</item>
+<item name="emote06">
+	<property name="Extends" value="emote01"/>
+	<property name="CustomIcon" value="emote06"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="emote06a"/>
+		<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" target="self" buff="emote06b"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformChildrenActive" active="false" transform_path="Screen"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="true" transform_path="emote06"/>
+	</effect_group>
+</item>
+<item name="emote07">
+	<property name="Extends" value="emote01"/>
+	<property name="CustomIcon" value="emote07"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="emote07a"/>
+		<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" target="self" buff="emote07b"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformChildrenActive" active="false" transform_path="Screen"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="true" transform_path="emote07"/>
+	</effect_group>
+</item>
+<item name="emote08">
+	<property name="Extends" value="emote01"/>
+	<property name="CustomIcon" value="emote08"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="emote08a"/>
+		<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" target="self" buff="emote08b"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformChildrenActive" active="false" transform_path="Screen"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="true" transform_path="emote08"/>
+	</effect_group>
+</item>
+<item name="emote09">
+	<property name="Extends" value="emote01"/>
+	<property name="CustomIcon" value="emote09"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="emote09a"/>
+		<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" target="self" buff="emote09b"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformChildrenActive" active="false" transform_path="Screen"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="true" transform_path="emote09"/>
+	</effect_group>
+</item>
+<item name="emote10">
+	<property name="Extends" value="emote01"/>
+	<property name="CustomIcon" value="emote10"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="emote10a"/>
+		<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" target="self" buff="emote10b"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformChildrenActive" active="false" transform_path="Screen"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="true" transform_path="emote10"/>
+	</effect_group>
+</item>
+<item name="emote11">
+	<property name="Extends" value="emote01"/>
+	<property name="CustomIcon" value="emote11"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="emote11a"/>
+		<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" target="self" buff="emote11b"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformChildrenActive" active="false" transform_path="Screen"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="true" transform_path="emote11"/>
+	</effect_group>
+</item>
+<item name="emote12">
+	<property name="Extends" value="emote01"/>
+	<property name="CustomIcon" value="emote12"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="emote12a"/>
+		<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" target="self" buff="emote12b"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformChildrenActive" active="false" transform_path="Screen"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="true" transform_path="emote12"/>
+	</effect_group>
+</item>
+<item name="emote13">
+	<property name="Extends" value="emote01"/>
+	<property name="CustomIcon" value="emote13"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="emote13a"/>
+		<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" target="self" buff="emote13b"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformChildrenActive" active="false" transform_path="Screen"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="true" transform_path="emote13"/>
+	</effect_group>
+</item>
+<item name="emote14">
+	<property name="Extends" value="emote01"/>
+	<property name="CustomIcon" value="emote14"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="emote14a"/>
+		<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" target="self" buff="emote14b"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformChildrenActive" active="false" transform_path="Screen"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="true" transform_path="emote14"/>
+	</effect_group>
+</item>
+<item name="emote15">
+	<property name="Extends" value="emote01"/>
+	<property name="CustomIcon" value="emote15"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="emote15a"/>
+		<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" target="self" buff="emote15b"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformChildrenActive" active="false" transform_path="Screen"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="true" transform_path="emote15"/>
+	</effect_group>
+</item>
+<item name="emote16">
+	<property name="Extends" value="emote01"/>
+	<property name="CustomIcon" value="emote16"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="emote16a"/>
+		<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" target="self" buff="emote16b"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformChildrenActive" active="false" transform_path="Screen"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="true" transform_path="emote16"/>
+	</effect_group>
+</item>
+<item name="emote17">
+	<property name="Extends" value="emote01"/>
+	<property name="CustomIcon" value="emote17"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="emote17a"/>
+		<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" target="self" buff="emote17b"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformChildrenActive" active="false" transform_path="Screen"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="true" transform_path="emote17"/>
+	</effect_group>
+</item>
+<item name="emote18">
+	<property name="Extends" value="emote01"/>
+	<property name="CustomIcon" value="emote18"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="emote18a"/>
+		<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" target="self" buff="emote18b"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformChildrenActive" active="false" transform_path="Screen"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="true" transform_path="emote18"/>
+	</effect_group>
+</item>
+<item name="emote19">
+	<property name="Extends" value="emote01"/>
+	<property name="CustomIcon" value="emote19"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="emote19a"/>
+		<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" target="self" buff="emote19b"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformChildrenActive" active="false" transform_path="Screen"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="true" transform_path="emote19"/>
+	</effect_group>
+</item>
+<item name="emote20">
+	<property name="Extends" value="emote01"/>
+	<property name="CustomIcon" value="emote20"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="emote20a"/>
+		<triggered_effect trigger="onSelfSecondaryActionEnd" action="AddBuff" target="self" buff="emote20b"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformChildrenActive" active="false" transform_path="Screen"/>
+		<triggered_effect trigger="onSelfPrimaryActionUpdate" action="SetTransformActive" active="true" transform_path="emote20"/>
+	</effect_group>
+</item>
+</append>
+</config>
