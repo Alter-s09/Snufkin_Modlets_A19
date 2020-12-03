@@ -1,0 +1,28 @@
+<riles_fixes>
+	<append xpath="/recipes">
+		<recipe name="meleeToolAxeT0ScrapAxe" craft_time="180" count="1" tags="perkMiner69r">
+			<ingredient name="resourceScrapIron" count="200"/>
+			<ingredient name="resourceWood" count="10"/>
+			<ingredient name="resourceLeather" count="2"/>
+			<ingredient name="resourceDuctTape" count="2"/>
+		</recipe>
+		<recipe name="meleeToolPickT0ScrapPickaxe" craft_time="180" count="1" tags="perkMiner69r">
+			<ingredient name="resourceScrapIron" count="200"/>
+			<ingredient name="resourceWood" count="10"/>
+			<ingredient name="resourceLeather" count="2"/>
+			<ingredient name="resourceDuctTape" count="2"/>
+		</recipe>
+		<recipe name="meleeToolShovelT0ScrapShovel" craft_time="180" count="1" tags="perkMiner69r">
+			<ingredient name="resourceScrapIron" count="200"/>
+			<ingredient name="resourceWood" count="10"/>
+			<ingredient name="resourceLeather" count="2"/>
+			<ingredient name="resourceDuctTape" count="2"/>
+		</recipe>
+		<recipe name="meleeWpnBladeT0ScrapKnife" craft_time="180" count="1" tags="perkDeepCuts">
+			<ingredient name="resourceScrapIron" count="200"/>
+			<ingredient name="resourceWood" count="10"/>
+			<ingredient name="resourceLeather" count="2"/>
+			<ingredient name="resourceDuctTape" count="2"/>
+		</recipe>
+	</append> 
+</riles_fixes>

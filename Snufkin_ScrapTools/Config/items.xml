@@ -1,0 +1,305 @@
+<configs>
+	<append xpath="/items/item[@name='resourceDuctTape']">
+		<property name="RepairTime" value="3"/>
+		<property name="RepairAmount" value="32000"/>
+	</append>
+	<append xpath="/items">
+		<item name="meleeToolAxeT0ScrapAxe">
+			<property name="Tags" value="axe,melee,grunting,medium,tool,longShaft,attStrength,perkMiner69r,perkMotherLode,canHaveCosmetic"/>
+			<property name="CustomIcon" value="meleeToolAxeT0ScrapAxe"/>
+			<property name="DisplayType" value="melee"/>
+			<property name="HoldType" value="32"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Resources1.unity3d?scrap_axePrefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Weight" value="100"/>
+			<property name="RepairTools" value="resourceDuctTape"/>
+			<property name="DegradationBreaksAfter" value="false"/>
+			<property name="SoundJammed" value="ItemNeedsRepair"/>
+			<property name="FuelValue" value="150"/>
+			<property name="EconomicValue" value="260"/>
+			<property name="SoundDestroy" value="wooddestroy1"/>
+			<property name="ShowQuality" value="true"/>
+			<property class="Action0">
+				<property name="Class" value="DynamicMelee"/>
+				<property name="Sphere" value=".15"/>
+				<property name="Sound_start" value="swoosh"/>
+				<property name="ToolCategory.harvestingTools" value="1" param1="1"/>
+				<property name="ToolCategory.Butcher" value="0" param1="4"/>
+				<property name="GrazeStart" value=".4"/>
+				<property name="GrazeEnd" value=".5"/>
+				<property name="SwingDegrees" value="50"/>
+				<property name="UseGrazingHits" value="true"/>
+				<property name="SwingAngle" value="180"/>
+				<property class="HitSounds">
+					<property name="Override0" value="organic" param1="metalstaborganic"/>
+				</property>
+				<property class="GrazeSounds">
+					<property name="Override0" value="organic" param1="metalgrazeorganic"/>
+				</property>
+			</property>
+			<property class="Action1">
+				<property name="Class" value="DynamicMelee"/>
+				<property name="Sphere" value=".15"/>
+				<property name="Sound_start" value="swoosh"/>
+				<property name="ToolCategory.harvestingTools" value="1" param1="1"/>
+				<property name="ToolCategory.Butcher" value="0" param1="4"/>
+				<property name="UsePowerAttackAnimation" value="true"/>
+				<property name="GrazeStart" value=".4"/>
+				<property name="GrazeEnd" value=".5"/>
+				<property name="SwingDegrees" value="50"/>
+				<property name="UseGrazingHits" value="true"/>
+				<property name="SwingAngle" value="135"/>
+				<property class="HitSounds">
+					<property name="Override0" value="organic" param1="metalstaborganic"/>
+				</property>
+				<property class="GrazeSounds">
+					<property name="Override0" value="organic" param1="metalgrazeorganic"/>
+				</property>
+			</property>
+			<effect_group name="meleeToolAxeT0ScrapAxe">
+				<passive_effect name="EntityDamage" operation="base_set" value="10.55" tags="perkMiner69r"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="33.25" tags="perkMiner69r"/>
+				<passive_effect name="AttacksPerMinute" operation="base_set" value="82.5" tags="perkMiner69r,axe"/>
+				<passive_effect name="StaminaLoss" operation="base_set" value="13.95" tags="primary"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="150,470" tier="1,6" tags="perkMiner69r"/>
+				<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMiner69r"/>
+				<passive_effect name="MaxRange" operation="base_set" value="2.5" tags="perkMiner69r"/>
+				<passive_effect name="BlockRange" operation="base_set" value="3.25" tags="perkMiner69r"/>
+				<passive_effect name="HarvestCount" operation="base_set" value="0.7" tags="butcherHarvest"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-0.825" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-0.54" tags="stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-0.625" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="base_set" value="1" tags="head,perkMiner69r" match_all_tags="true"/>
+			</effect_group>
+			<effect_group>
+				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+				<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkMiner69r"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkMiner69r"/>
+				<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.05,.05" tags="perkMiner69r"/>
+				<passive_effect name="DegradationMax" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/>
+				<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/>
+				<passive_effect name="StaminaLoss" operation="perc_add" value="-.05,.05"/>
+			</effect_group>
+			<effect_group name="Power Attack">
+				<passive_effect name="EntityDamage" operation="perc_add" value="1.25" tags="secondary"/>
+				<passive_effect name="BlockDamage" operation="perc_add" value="1.25" tags="secondary"/>
+				<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.3" tags="secondary"/>
+				<passive_effect name="StaminaLoss" operation="base_set" value="39.9" tags="secondary"/>
+			</effect_group>
+			<property name="Group" value="Tools/Traps"/>
+			<property name="RepairExpMultiplier" value="5.5"/>
+		</item>
+		<item name="meleeToolPickT0ScrapPickaxe">
+			<property name="Tags" value="melee,grunting,medium,tool,longShaft,attStrength,perkMiner69r,perkMotherLode,miningTool,canHaveCosmetic"/>
+			<property name="CustomIcon" value="meleeToolPickT0ScrapPickaxe"/>
+			<property name="DisplayType" value="melee"/>
+			<property name="HoldType" value="63"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Resources2.unity3d?scrap_pickaxePrefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Weight" value="100"/>
+			<property name="RepairTools" value="resourceDuctTape"/>
+			<property name="DegradationBreaksAfter" value="false"/>
+			<property name="SoundJammed" value="ItemNeedsRepair"/>
+			<property name="SoundDestroy" value="metaldestroy1"/>
+			<property name="FuelValue" value="150"/>
+			<property name="EconomicValue" value="260"/>
+			<property name="ShowQuality" value="true"/>
+			<property class="Action0">
+				<property name="Class" value="DynamicMelee"/>
+				<property name="Sphere" value=".15"/>
+				<property name="Sound_start" value="swoosh"/>
+				<property name="ToolCategory.harvestingTools" value="1" param1="1"/>
+				<property name="GrazeStart" value=".25"/>
+				<property name="GrazeEnd" value=".35"/>
+				<property name="SwingDegrees" value="65"/>
+				<property name="SwingAngle" value="180"/>
+				<property name="UseGrazingHits" value="true"/>
+			</property>
+			<property class="Action1">
+				<property name="Class" value="DynamicMelee"/>
+				<property name="Sphere" value=".15"/>
+				<property name="Sound_start" value="swoosh"/>
+				<property name="ToolCategory.harvestingTools" value="1" param1="1"/>
+				<property name="UsePowerAttackAnimation" value="true"/>
+				<property name="UseGrazingHits" value="true"/>
+				<property name="GrazeStart" value=".3"/>
+				<property name="GrazeEnd" value=".4"/>
+				<property name="SwingDegrees" value="70"/>
+				<property name="SwingAngle" value="130"/>
+			</property>
+			<property name="Group" value="Tools/Traps"/>
+			<effect_group name="meleeToolPickT1IronPickaxe">
+				<passive_effect name="EntityDamage" operation="base_set" value="7.8" tags="perkMiner69r"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="24.9" tags="perkMiner69r,miningTool"/>
+				<passive_effect name="AttacksPerMinute" operation="base_set" value="60" tags="perkMiner69r"/>
+				<passive_effect name="StaminaLoss" operation="base_set" value="12.9" tags="primary"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="182,620" tier="1,6" tags="perkMiner69r"/>
+				<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMiner69r"/>
+				<passive_effect name="MaxRange" operation="base_set" value="1.68" tags="perkMiner69r"/>
+				<passive_effect name="BlockRange" operation="base_set" value="2.45" tags="perkMiner69r"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".9" tags="terrGravel"/>
+			</effect_group>
+			<effect_group>
+				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+				<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkMiner69r"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkMiner69r"/>
+				<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.05,.05" tags="perkMiner69r"/>
+				<passive_effect name="DegradationMax" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/>
+				<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/>
+				<passive_effect name="StaminaLoss" operation="perc_add" value="-.05,.05"/>
+			</effect_group>
+			<effect_group name="Power Attack">
+				<passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary"/>
+				<passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
+				<passive_effect name="StaminaLoss" operation="base_set" value="31.3" tags="secondary"/>
+			</effect_group>
+			<property name="PickupJournalEntry" value="miningTip"/>
+			<property name="RepairExpMultiplier" value="5.5"/>
+		</item>
+		<item name="meleeWpnBladeT0ScrapKnife">
+			<property name="Tags" value="knife,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
+			<property name="DisplayType" value="meleeKnife"/>
+			<property name="HoldType" value="36"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Resources3.unity3d?scrap_knifePrefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Weight" value="100"/>
+			<property name="RepairTools" value="resourceDuctTape"/>
+			<property name="DegradationBreaksAfter" value="false"/>
+			<property name="FuelValue" value="75"/>
+			<property name="EconomicValue" value="260"/>
+			<property name="SoundJammed" value="ItemNeedsRepair"/>
+			<property name="SoundDestroy" value="wooddestroy1"/>
+			<property name="ShowQuality" value="true"/>
+			<property class="Action0">
+				<property name="Class" value="DynamicMelee"/>
+				<property name="Damage_type" value="Slashing"/>
+				<property name="Sphere" value=".1"/>
+				<property name="Sound_start" value="swoosh"/>
+				<property name="ToolCategory.harvestingTools" value=".5" param1="1"/>
+				<property name="ToolCategory.Butcher" value="0" param1="5"/>
+				<property name="UseGrazingHits" value="true"/>
+				<property name="GrazeStart" value=".25"/>
+				<property name="GrazeEnd" value=".35"/>
+				<property name="SwingDegrees" value="90"/>
+				<property name="SwingAngle" value="90"/>
+				<property class="HitSounds">
+					<property name="Override0" value="organic" param1="metalstaborganic"/>
+				</property>
+				<property class="GrazeSounds">
+					<property name="Override0" value="organic" param1="metalgrazeorganic"/>
+				</property>
+			</property>
+			<property class="Action1">
+				<property name="Class" value="DynamicMelee"/>
+				<property name="Damage_type" value="Slashing"/>
+				<property name="Sphere" value=".1"/>
+				<property name="Sound_start" value="swoosh"/>
+				<property name="ToolCategory.harvestingTools" value=".5" param1="1"/>
+				<property name="ToolCategory.Butcher" value="0" param1="5"/>
+				<property name="UsePowerAttackAnimation" value="true"/>
+				<property name="UseGrazingHits" value="true"/>
+				<property name="GrazeStart" value=".2"/>
+				<property name="GrazeEnd" value=".3"/>
+				<property name="SwingDegrees" value="80"/>
+				<property name="SwingAngle" value="140"/>
+				<property class="HitSounds">
+					<property name="Override0" value="organic" param1="metalstaborganic"/>
+				</property>
+				<property class="GrazeSounds">
+					<property name="Override0" value="organic" param1="metalgrazeorganic"/>
+				</property>
+			</property>
+			<effect_group name="meleeWpnBladeT0ScrapKnife">
+				<passive_effect name="EntityDamage" operation="base_set" value="5.6" tags="perkDeepCuts,knife"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="4.65" tags="perkDeepCuts"/>
+				<passive_effect name="AttacksPerMinute" operation="base_set" value="120" tags="perkDeepCuts,perkFlurryOfBlows"/>
+				<passive_effect name="StaminaLoss" operation="base_set" value="7.75" tags="primary"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="291,687" tier="1,6" tags="perkDeepCuts"/>
+				<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDeepCuts"/>
+			</effect_group>
+			<effect_group name="Power Attack">
+				<passive_effect name="EntityDamage" operation="base_add" value="5.55" tags="secondary"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary"/>
+				<passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
+				<passive_effect name="AttacksPerMinute" operation="base_add" value="-60" tags="secondary"/>
+				<passive_effect name="StaminaLoss" operation="base_set" value="11.6" tags="secondary"/>
+			</effect_group>
+			<effect_group>
+				<passive_effect name="MaxRange" operation="base_set" value="2.0" tags="perkDeepCuts"/>
+				<passive_effect name="BlockRange" operation="base_set" value="2.5" tags="perkDeepCuts"/>
+				<passive_effect name="HarvestCount" operation="base_set" value="1" tags="butcherHarvest"/>
+				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+				<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkDeepCuts"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkDeepCuts"/>
+				<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkDeepCuts"/>
+				<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkDeepCuts"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".6" tags="organic"/>
+			</effect_group>
+			<effect_group name="sneak damage bonus">
+				<requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="_notAlerted" operation="GT" value="0" target="other"/>
+				<passive_effect name="DamageBonus" operation="base_add" value="4"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value="4" tags="perkDeepCuts"/>
+				<display_value name="dEntityDamageSneak" value="4"/>
+			</effect_group>
+			<property name="Group" value="Ammo/Weapons"/>
+			<property name="RepairExpMultiplier" value="5.5"/>
+		</item>
+		<item name="meleeToolShovelT0ScrapShovel">
+			<property name="Extends" value="meleeToolShovelT0StoneShovel"/>
+			<property name="Tags" value="melee,grunting,medium,tool,longShaft,shovel,attStrength,perkMiner69r,perkMotherLode,canHaveCosmetic"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Resources2.unity3d?scrap_shovelPrefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Weight" value="100"/>
+			<property name="RepairTools" value="resourceDuctTape"/>
+			<property name="FuelValue" value="150"/>
+			<property name="EconomicValue" value="260"/>
+			<property name="SellableToTrader" value="true"/>
+			<effect_group name="meleeToolShovelT0ScrapShovel">
+				<passive_effect name="EntityDamage" operation="base_set" value="10.6" tags="perkMiner69r"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="42.2" tags="perkMiner69r"/>
+				<passive_effect name="AttacksPerMinute" operation="base_set" value="50" tags="perkMiner69r"/>
+				<passive_effect name="StaminaLoss" operation="base_set" value="18.25" tags="primary"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="147,475" tier="1,6" tags="perkMiner69r"/>
+				<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMiner69r"/>
+				<passive_effect name="MaxRange" operation="base_set" value="2.6" tags="perkMiner69r"/>
+				<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkMiner69r"/>
+			</effect_group>
+			<effect_group name="Power Attack">
+				<passive_effect name="EntityDamage" operation="perc_add" value="1.25" tags="secondary"/>
+				<passive_effect name="BlockDamage" operation="perc_add" value="1.25" tags="secondary"/>
+				<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.3" tags="secondary"/>
+				<passive_effect name="StaminaLoss" operation="base_set" value="36.55" tags="secondary"/>
+			</effect_group>
+			<effect_group>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.7" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="metal"/>
+				<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+				<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkMiner69r"/>
+				<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/>
+				<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkMiner69r"/>
+				<passive_effect name="DegradationMax" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/>
+				<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.05,.05" tags="perkMiner69r"/>
+				<passive_effect name="StaminaLoss" operation="perc_add" value="-.05,.05"/>
+			</effect_group>
+			<property name="Group" value="Tools/Traps"/>
+		</item>
+	</append>
+</configs>
