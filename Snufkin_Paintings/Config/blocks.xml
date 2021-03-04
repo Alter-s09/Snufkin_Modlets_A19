@@ -1,0 +1,524 @@
+<configs>
+	<append xpath="/blocks">
+		<block name="Painting 1">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/paintings.unity3d?painting_1"/>
+		</block>
+		<block name="hiddenSafePainting1">
+			<property name="Extends" value="Painting 1"/>
+			<property name="CanPickup" value="false" param1="Painting 1"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+		</block>
+		<block name="Painting 2">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/paintings.unity3d?painting_2"/>
+		</block>
+		<block name="hiddenSafePainting2">
+			<property name="Extends" value="Painting 2"/>
+			<property name="CanPickup" value="false" param1="Painting 2"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+		</block>
+		<block name="Painting 3">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/paintings.unity3d?painting_3"/>
+		</block>
+		<block name="hiddenSafePainting3">
+			<property name="Extends" value="Painting 3"/>
+			<property name="CanPickup" value="false" param1="Painting 3"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+		</block>
+		<block name="Painting 4">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/paintings.unity3d?painting_4"/>
+		</block>
+		<block name="hiddenSafePainting4">
+			<property name="Extends" value="Painting 4"/>
+			<property name="CanPickup" value="false" param1="Painting 4"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+		</block>
+		<block name="Painting 5">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/paintings.unity3d?painting_5"/>
+		</block>
+		<block name="hiddenSafePainting5">
+			<property name="Extends" value="Painting 5"/>
+			<property name="CanPickup" value="false" param1="Painting 5"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+		</block>
+		<block name="Painting 6">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/paintings.unity3d?painting_6"/>
+		</block>
+		<block name="hiddenSafePainting6">
+			<property name="Extends" value="Painting 6"/>
+			<property name="CanPickup" value="false" param1="Painting 6"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+		</block>
+		<block name="Painting 7">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/paintings.unity3d?painting_7"/>
+		</block>
+		<block name="hiddenSafePainting7">
+			<property name="Extends" value="Painting 7"/>
+			<property name="CanPickup" value="false" param1="Painting 7"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+		</block>
+		<block name="Painting 8">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/paintings.unity3d?painting_8"/>
+		</block>
+		<block name="hiddenSafePainting8">
+			<property name="Extends" value="Painting 8"/>
+			<property name="CanPickup" value="false" param1="Painting 8"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+		</block>
+		<block name="Painting 9">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/paintings.unity3d?painting_9"/>
+		</block>
+		<block name="hiddenSafePainting9">
+			<property name="Extends" value="Painting 9"/>
+			<property name="CanPickup" value="false" param1="Painting 9"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+		</block>
+		<block name="Painting 10">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/paintings.unity3d?painting_10"/>
+		</block>
+		<block name="hiddenSafePainting10">
+			<property name="Extends" value="Painting 10"/>
+			<property name="CanPickup" value="false" param1="Painting 10"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+		</block>
+		<block name="Painting 11">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/paintings.unity3d?painting_11"/>
+		</block>
+		<block name="hiddenSafePainting11">
+			<property name="Extends" value="Painting 11"/>
+			<property name="CanPickup" value="false" param1="Painting 11"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+		</block>
+		<block name="Painting 12">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/paintings.unity3d?painting_12"/>
+		</block>
+		<block name="hiddenSafePainting12">
+			<property name="Extends" value="Painting 12"/>
+			<property name="CanPickup" value="false" param1="Painting 12"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+		</block>
+		<block name="Painting 13">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/paintings.unity3d?painting_13"/>
+		</block>
+		<block name="hiddenSafePainting13">
+			<property name="Extends" value="Painting 13"/>
+			<property name="CanPickup" value="false" param1="Painting 13"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+		</block>
+		<block name="Painting 14">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/paintings.unity3d?painting_14"/>
+		</block>
+		<block name="hiddenSafePainting14">
+			<property name="Extends" value="Painting 14"/>
+			<property name="CanPickup" value="false" param1="Painting 14"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+		</block>
+		<block name="Painting 15">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/paintings.unity3d?painting_15"/>
+		</block>
+		<block name="hiddenSafePainting15">
+			<property name="Extends" value="Painting 15"/>
+			<property name="CanPickup" value="false" param1="Painting 15"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+		</block>
+		<block name="Painting 16">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/paintings.unity3d?painting_16"/>
+		</block>
+		<block name="hiddenSafePainting16">
+			<property name="Extends" value="Painting 16"/>
+			<property name="CanPickup" value="false" param1="Painting 16"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+		</block>
+		<block name="Painting 17">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/paintings.unity3d?painting_17"/>
+		</block>
+		<block name="hiddenSafePainting17">
+			<property name="Extends" value="Painting 17"/>
+			<property name="CanPickup" value="false" param1="Painting 17"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+		</block>
+		<block name="Painting 18">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/paintings.unity3d?painting_18"/>
+		</block>
+		<block name="hiddenSafePainting18">
+			<property name="Extends" value="Painting 18"/>
+			<property name="CanPickup" value="false" param1="Painting 18"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+		</block>
+		<block name="Painting 19">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/paintings.unity3d?painting_19"/>
+		</block>
+		<block name="hiddenSafePainting19">
+			<property name="Extends" value="Painting 19"/>
+			<property name="CanPickup" value="false" param1="Painting 19"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+		</block>
+		<block name="Painting 20">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/paintings.unity3d?painting_20"/>
+		</block>
+		<block name="hiddenSafePainting20">
+			<property name="Extends" value="Painting 20"/>
+			<property name="CanPickup" value="false" param1="Painting 20"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePaintingGroupDesc"/>
+		</block>
+		<block name="Poster 1">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/posters.unity3d?poster_1"/>
+		</block>
+		<block name="hiddenSafePoster1">
+			<property name="Extends" value="Poster 1"/>
+			<property name="CanPickup" value="false" param1="Poster 1"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePosterGroupDesc"/>
+		</block>
+		<block name="Poster 2">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/posters.unity3d?poster_2"/>
+		</block>
+		<block name="hiddenSafePoster2">
+			<property name="Extends" value="Poster 2"/>
+			<property name="CanPickup" value="false" param1="Poster 2"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePosterGroupDesc"/>
+		</block>
+		<block name="Poster 3">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/posters.unity3d?poster_3"/>
+		</block>
+		<block name="hiddenSafePoster3">
+			<property name="Extends" value="Poster 3"/>
+			<property name="CanPickup" value="false" param1="Poster 3"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePosterGroupDesc"/>
+		</block>
+		<block name="Poster 4">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/posters.unity3d?poster_4"/>
+		</block>
+		<block name="hiddenSafePoster4">
+			<property name="Extends" value="Poster 4"/>
+			<property name="CanPickup" value="false" param1="Poster 4"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePosterGroupDesc"/>
+		</block>
+		<block name="Poster 5">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/posters.unity3d?poster_5"/>
+		</block>
+		<block name="hiddenSafePoster5">
+			<property name="Extends" value="Poster 5"/>
+			<property name="CanPickup" value="false" param1="Poster 5"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePosterGroupDesc"/>
+		</block>
+		<block name="Poster 6">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/posters.unity3d?poster_6"/>
+		</block>
+		<block name="hiddenSafePoster6">
+			<property name="Extends" value="Poster 6"/>
+			<property name="CanPickup" value="false" param1="Poster 6"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePosterGroupDesc"/>
+		</block>
+		<block name="Poster 7">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/posters.unity3d?poster_7"/>
+		</block>
+		<block name="hiddenSafePoster7">
+			<property name="Extends" value="Poster 7"/>
+			<property name="CanPickup" value="false" param1="Poster 7"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePosterGroupDesc"/>
+		</block>
+		<block name="Poster 8">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/posters.unity3d?poster_8"/>
+		</block>
+		<block name="hiddenSafePoster8">
+			<property name="Extends" value="Poster 8"/>
+			<property name="CanPickup" value="false" param1="Poster 8"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePosterGroupDesc"/>
+		</block>
+		<block name="Poster 9">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/posters.unity3d?poster_9"/>
+		</block>
+		<block name="hiddenSafePoster9">
+			<property name="Extends" value="Poster 9"/>
+			<property name="CanPickup" value="false" param1="Poster 9"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePosterGroupDesc"/>
+		</block>
+		<block name="Poster 10">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/posters.unity3d?poster_10"/>
+		</block>
+		<block name="hiddenSafePoster10">
+			<property name="Extends" value="Poster 10"/>
+			<property name="CanPickup" value="false" param1="Poster 10"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePosterGroupDesc"/>
+		</block>
+		<block name="Poster 11">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/posters.unity3d?poster_11"/>
+		</block>
+		<block name="hiddenSafePoster11">
+			<property name="Extends" value="Poster 11"/>
+			<property name="CanPickup" value="false" param1="Poster 11"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePosterGroupDesc"/>
+		</block>
+		<block name="Poster 12">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/posters.unity3d?poster_12"/>
+		</block>
+		<block name="hiddenSafePoster12">
+			<property name="Extends" value="Poster 12"/>
+			<property name="CanPickup" value="false" param1="Poster 12"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePosterGroupDesc"/>
+		</block>
+		<block name="Poster 13">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/posters.unity3d?poster_13"/>
+		</block>
+		<block name="hiddenSafePoster13">
+			<property name="Extends" value="Poster 13"/>
+			<property name="CanPickup" value="false" param1="Poster 13"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePosterGroupDesc"/>
+		</block>
+		<block name="Poster 14">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/posters.unity3d?poster_14"/>
+		</block>
+		<block name="hiddenSafePoster14">
+			<property name="Extends" value="Poster 14"/>
+			<property name="CanPickup" value="false" param1="Poster 14"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePosterGroupDesc"/>
+		</block>
+		<block name="Poster 15">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/posters.unity3d?poster_15"/>
+		</block>
+		<block name="hiddenSafePoster15">
+			<property name="Extends" value="Poster 15"/>
+			<property name="CanPickup" value="false" param1="Poster 15"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePosterGroupDesc"/>
+		</block>
+		<block name="Poster 16">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/posters.unity3d?poster_16"/>
+		</block>
+		<block name="hiddenSafePoster16">
+			<property name="Extends" value="Poster 16"/>
+			<property name="CanPickup" value="false" param1="Poster 16"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePosterGroupDesc"/>
+		</block>
+		<block name="Poster 17">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/posters.unity3d?poster_17"/>
+		</block>
+		<block name="hiddenSafePoster17">
+			<property name="Extends" value="Poster 17"/>
+			<property name="CanPickup" value="false" param1="Poster 17"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePosterGroupDesc"/>
+		</block>
+		<block name="Poster 18">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/posters.unity3d?poster_18"/>
+		</block>
+		<block name="hiddenSafePoster18">
+			<property name="Extends" value="Poster 18"/>
+			<property name="CanPickup" value="false" param1="Poster 18"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePosterGroupDesc"/>
+		</block>
+		<block name="Poster 19">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/posters.unity3d?poster_19"/>
+		</block>
+		<block name="hiddenSafePoster19">
+			<property name="Extends" value="Poster 19"/>
+			<property name="CanPickup" value="false" param1="Poster 19"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePosterGroupDesc"/>
+		</block>
+		<block name="Poster 20">
+			<property name="Extends" value="paintingBen"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Model" value="#@modfolder:Resources/posters.unity3d?poster_20"/>
+		</block>
+		<block name="hiddenSafePoster20">
+			<property name="Extends" value="Poster 20"/>
+			<property name="CanPickup" value="false" param1="Poster 20"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DowngradeBlock" value="cntWallSafeRandomLootHelper"/>
+			<property name="DescriptionKey" value="hiddenSafePosterGroupDesc"/>
+		</block>
+	</append>
+</configs>
